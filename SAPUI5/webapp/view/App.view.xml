@@ -1,0 +1,9 @@
+<mvc:View controllerName="jeperez.SAPUI5.controller.App" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
+
+        <Button text="{i18nId>showHelloButtonText}" press=".onShowHello"></Button>
+        <Input value="{/recipient/name}"
+               description="Hello {/recipient/name}"
+               valueLiveUpdate="true"
+               width="60%"> </Input>
+
+</mvc:View>

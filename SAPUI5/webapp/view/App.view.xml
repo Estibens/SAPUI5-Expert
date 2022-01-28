@@ -1,9 +1,17 @@
-<mvc:View controllerName="jeperez.SAPUI5.controller.App" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
-
-        <Button text="{i18nId>showHelloButtonText}" press=".onShowHello"></Button>
-        <Input value="{/recipient/name}"
-               description="Hello {/recipient/name}"
-               valueLiveUpdate="true"
-               width="60%"> </Input>
-
+<mvc:View controllerName="jeperez.SAPUI5.controller.App" 
+          xmlns="sap.m" 
+          xmlns:mvc="sap.ui.core.mvc" 
+          displayBlock="true">
+          <Shell >
+            <App>
+                <pages>
+                    <Page title="{i18n>appTitle}" >
+                        <content>
+                            <mvc:XMLView viewName="jeperez.SAPUI5.view.HelloPanel"/>
+                            <mvc:XMLView viewName="jeperez.SAPUI5.view.InvoicesList"/>
+                        </content>
+                    </Page>
+                </pages>
+            </App>
+          </Shell>
 </mvc:View>

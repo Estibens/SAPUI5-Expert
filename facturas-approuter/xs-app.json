@@ -1,4 +1,12 @@
 {
-  "authenticationMethod": "none",
-  "routes": []
+    "authenticationMethod": "none",
+    "routes": [
+        {
+            "authenticationType": "none",
+            "csrfProtection": false,
+            "source": "^/Northwind/V2/Northwind/Northwind.svc/(.*)$",
+            "destination": "Northwind",
+            "target": "$1"
+        }
+    ]
 }

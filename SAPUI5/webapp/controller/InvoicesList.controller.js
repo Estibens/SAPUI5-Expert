@@ -33,16 +33,25 @@ sap.ui.define([
                 const aFilter = [];
                 const sQuery = oEvent.getParameter("query");
 
-                if (sQuery){
-                    aFilter.push( new Filter( "ProductName", FilterOperator.Contains, sQuery ));
+                if (sQuery) {
+                    aFilter.push(new Filter("ProductName", FilterOperator.Contains, sQuery));
                 };
 
                 // obtenemos la lista de la vista
-                const oList =  this.getView().byId("invoiceListId");
+                const oList = this.getView().byId("invoiceListId");
                 //obtenemos el binding 
                 const oBinding = oList.getBinding("items");
                 oBinding.filter(aFilter);
+            },
+
+            navigateToDetails: function (oEvent) {
+                const oItem = oEvent.getSource();
+                const oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+                oRouter.navTo("Details", {
+                    invoiceNav: window.encodeURIComponent(oItem.getBindingContext("northwind").getPath().substr(1))
+                });
+
             }
-            
+
         });
     });

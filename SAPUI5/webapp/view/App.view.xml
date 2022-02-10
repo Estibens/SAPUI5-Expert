@@ -3,15 +3,6 @@
           xmlns:mvc="sap.ui.core.mvc" 
           displayBlock="true">
           <Shell >
-            <App>
-                <pages>
-                    <Page title="{i18n>appTitle}" >
-                        <content>
-                            <mvc:XMLView viewName="jeperez.SAPUI5.view.HelloPanel"/>
-                            <mvc:XMLView viewName="jeperez.SAPUI5.view.InvoicesList"/>
-                        </content>
-                    </Page>
-                </pages>
-            </App>
+            <App id="appId"/>
           </Shell>
 </mvc:View>

@@ -27,11 +27,15 @@ sap.ui.define([
                 this.setModel(Models.createRecipient());
 
                 // set i18n model on the view
-                var i18nModel = new ResourceModel({ bundleName: "jeperez.SAPUI5.i18n.i18n" });
-                this.setModel(i18nModel, "i18nId");
+                // var i18nModel = new ResourceModel({ bundleName: "jeperez.SAPUI5.i18n.i18n" });
+                // this.setModel(i18nModel, "i18nId");
 
                 // se envia como parametro la vista al constructor de HelloDialog.js
                 this._helloDialog = new HelloDialog(this.getRootControl());
+
+                // Inizializar el enrutamiento  de la aplicacion (las rutas que se encuentran en el manifest.json)
+                // create the views based on the url/hash
+                this.getRouter().initialize();
             },
 
             exit: function () {

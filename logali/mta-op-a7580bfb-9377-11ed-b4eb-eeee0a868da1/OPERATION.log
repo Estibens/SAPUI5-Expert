@@ -1,0 +1,3048 @@
+#2.0#2023 01 13 19:22:43.637#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.startEvent#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########http-nio-0.0.0.0-8080-exec-9###
+[XS2StartProcessListener] Operation ID: a7580bfb-9377-11ed-b4eb-eeee0a868da1#
+
+#2.0#2023 01 13 19:22:43.656#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.startEvent#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########http-nio-0.0.0.0-8080-exec-9###
+[XS2StartProcessListener] Process environment: {
+  "SKIP_SSL_VALIDATION" : "false",
+  "FLOWABLE_JOB_EXECUTOR_MAX_THREADS" : "32",
+  "VERSION" : "1.147.0",
+  "BASIC_AUTH_ENABLED" : "true",
+  "FLOWABLE_JOB_EXECUTOR_QUEUE_CAPACITY" : "16",
+  "FLOWABLE_JOB_EXECUTOR_CORE_THREADS" : "8"
+}#
+
+#2.0#2023 01 13 19:22:43.656#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.startEvent#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########http-nio-0.0.0.0-8080-exec-9###
+[XS2StartProcessListener] Current user: jhon.estib.perez@gmail.com#
+
+#2.0#2023 01 13 19:22:43.656#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.startEvent#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########http-nio-0.0.0.0-8080-exec-9###
+[XS2StartProcessListener] Client space: dev#
+
+#2.0#2023 01 13 19:22:43.656#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.startEvent#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########http-nio-0.0.0.0-8080-exec-9###
+[XS2StartProcessListener] Client organization: 1d36982btrial#
+
+#2.0#2023 01 13 19:22:43.656#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.startEvent#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########http-nio-0.0.0.0-8080-exec-9###
+[XS2StartProcessListener] Process variables: {
+  "abortOnError" : false,
+  "mtaId" : "logali",
+  "keepFiles" : false,
+  "verifyArchiveSignature" : false,
+  "noFailOnMissingPermissions" : false,
+  "deleteServiceBrokers" : false,
+  "appArchiveId" : "5997a4aa-5363-4e4b-a22f-58365af81048",
+  "gitUri" : "",
+  "deleteServiceKeys" : false,
+  "noRestartSubscribedApps" : false,
+  "noStart" : false,
+  "deleteServices" : false
+}#
+
+#2.0#2023 01 13 19:22:43.718#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.validateParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[ValidateDeployParametersStep] Executing task "validateParametersTask" of process "a7580c1b-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:43.719#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.validateParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[ValidateDeployParametersStep] Validating parameters...#
+
+#2.0#2023 01 13 19:22:43.719#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.validateParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[ValidateDeployParametersStep] Deploying in org "1d36982btrial" and space "dev"#
+
+#2.0#2023 01 13 19:22:43.724#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.validateParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[ValidateDeployParametersStep] Parameters validated#
+
+#2.0#2023 01 13 19:22:43.724#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.validateParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+Step "Validate Parameters" finished#
+
+#2.0#2023 01 13 19:22:43.773#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.deleteRemainingFileParts#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2083###
+[DeleteRemainingFileParts] Executing task "deleteRemainingFileParts" of process "a7580c1b-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:43.775#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.deleteRemainingFileParts#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2083###
+Step "Delete Remaining File Parts" finished#
+
+#2.0#2023 01 13 19:22:43.810#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processArchiveTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[XS2ProcessMtaArchiveStep] Executing task "processArchiveTask" of process "a7580c1b-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:43.811#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processArchiveTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[XS2ProcessMtaArchiveStep] Processing MTA archive...#
+
+#2.0#2023 01 13 19:22:43.811#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processArchiveTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[XS2ProcessMtaArchiveStep] MTA Archive ID: 5997a4aa-5363-4e4b-a22f-58365af81048#
+
+#2.0#2023 01 13 19:22:43.904#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processArchiveTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[XS2ProcessMtaArchiveStep] MTA Archive Modules: [logali_ui_deployer, logali-approuter]#
+
+#2.0#2023 01 13 19:22:43.904#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processArchiveTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[XS2ProcessMtaArchiveStep] MTA Archive Requires: []#
+
+#2.0#2023 01 13 19:22:43.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processArchiveTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[XS2ProcessMtaArchiveStep] MTA Archive Resources: [uaa_logali]#
+
+#2.0#2023 01 13 19:22:43.914#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processArchiveTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[XS2ProcessMtaArchiveStep] MTA archive processed#
+
+#2.0#2023 01 13 19:22:43.914#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processArchiveTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+Step "Process Archive" finished#
+
+#2.0#2023 01 13 19:22:43.956#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processExtensionDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+[ProcessMtaExtensionDescriptorsStep] Executing task "processExtensionDescriptorsTask" of process "a7580c1b-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:43.957#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processExtensionDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+[ProcessMtaExtensionDescriptorsStep] Processing MTA extension descriptors...#
+
+#2.0#2023 01 13 19:22:43.958#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processExtensionDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+[ProcessMtaExtensionDescriptorsStep] Extension descriptors: [ ]#
+
+#2.0#2023 01 13 19:22:43.958#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processExtensionDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+[ProcessMtaExtensionDescriptorsStep] MTA extension descriptors processed#
+
+#2.0#2023 01 13 19:22:43.958#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processExtensionDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+Step "Process Extension Descriptors" finished#
+
+#2.0#2023 01 13 19:22:43.995#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.detectSchemaVersionTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2086###
+[DetectMtaSchemaVersionStep] Executing task "detectSchemaVersionTask" of process "a7580c1b-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:43.996#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.detectSchemaVersionTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2086###
+[DetectMtaSchemaVersionStep] Detecting MTA major schema version...#
+
+#2.0#2023 01 13 19:22:43.998#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.detectSchemaVersionTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2086###
+[DetectMtaSchemaVersionStep] Detected MTA schema version: "3"#
+
+#2.0#2023 01 13 19:22:44.003#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.detectSchemaVersionTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2086###
+Step "Detect Schema Version" finished#
+
+#2.0#2023 01 13 19:22:44.039#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.mergeDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+[MergeDescriptorsStep] Executing task "mergeDescriptorsTask" of process "a7580c1b-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:44.041#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.mergeDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+[MergeDescriptorsStep] Validating and merging descriptors...#
+
+#2.0#2023 01 13 19:22:44.043#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.mergeDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+[MergeDescriptorsStep] Merged deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.2.0",
+  "id" : "logali",
+  "version" : "0.0.1",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "logali-approuter",
+    "type" : "javascript.nodejs",
+    "path" : "logali-approuter",
+    "properties" : { },
+    "parameters" : {
+      "disk-quota" : "256M",
+      "memory" : "256M"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "logali_html_repo_runtime",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "uaa_logali",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "logali-destination-service",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "ui5",
+        "forwardAuthToken" : "********",
+        "url" : "https://ui5.sap.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "logali-approuter",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "logali_ui_deployer",
+    "type" : "com.sap.application.content",
+    "path" : "logali_ui_deployer",
+    "properties" : { },
+    "parameters" : { },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "logali_html_repo_host",
+      "properties" : { },
+      "parameters" : {
+        "content-target" : true
+      },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "logali_ui_deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "logali_html_repo_runtime",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "service-plan" : "app-runtime",
+      "type" : "managed-service",
+      "service" : "html5-apps-repo"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "uaa_logali",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "path" : "./xs-security.json",
+      "service-name" : "logali-xsuaa-service",
+      "service-plan" : "application",
+      "type" : "managed-service",
+      "service" : "xsuaa"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "logali_html_repo_host",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "service-plan" : "app-host",
+      "type" : "managed-service",
+      "service" : "html5-apps-repo"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "logali-destination-service",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "service-name" : "logali-destination-service",
+      "service-plan" : "lite",
+      "type" : "managed-service",
+      "config" : {
+        "HTML5Runtime_enabled" : false,
+        "init_data" : {
+          "instance" : {
+            "destinations" : [ {
+              "Authentication" : "********",
+              "Name" : "ui5",
+              "ProxyType" : "Internet",
+              "Type" : "HTTP",
+              "URL" : "https://ui5.sap.com"
+            } ],
+            "existing_destinations_policy" : "update"
+          }
+        },
+        "version" : "1.0.0"
+      },
+      "service" : "destination"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  } ],
+  "parameters" : {
+    "deploy_mode" : "html5-repo"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+
+#2.0#2023 01 13 19:22:44.044#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.mergeDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+[MergeDescriptorsStep] Descriptors validated and merged#
+
+#2.0#2023 01 13 19:22:44.044#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.mergeDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+Step "Merge Descriptors" finished#
+
+#2.0#2023 01 13 19:22:44.078#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.detectDeployedMtaTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2088###
+[DetectDeployedMtaStep] Executing task "detectDeployedMtaTask" of process "a7580c1b-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:44.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.detectDeployedMtaTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2088###
+[DetectDeployedMtaStep] Detecting deployed MTA...#
+
+#2.0#2023 01 13 19:22:44.184#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.detectDeployedMtaTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2088###
+[DetectDeployedMtaStep] Detecting MTA by id logali and namespace null#
+
+#2.0#2023 01 13 19:22:44.184#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.detectDeployedMtaTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2088###
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=b635926e954ad71675388bdaca112343,!mta_namespace"...#
+
+#2.0#2023 01 13 19:22:44.255#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.detectDeployedMtaTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2088###
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=b635926e954ad71675388bdaca112343,!mta_namespace"...#
+
+#2.0#2023 01 13 19:22:45.091#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.detectDeployedMtaTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2088###
+[DetectDeployedMtaStep] Deployed MTA: {
+  "metadata" : {
+    "id" : "logali",
+    "version" : "0.0.1"
+  },
+  "applications" : [ ],
+  "services" : [ {
+    "name" : "logali-xsuaa-service",
+    "metadata" : {
+      "guid" : "15a529bf-4ddc-4f44-b02b-c789ebb0621f",
+      "createdAt" : [ 2023, 1, 13, 19, 13, 39 ],
+      "updatedAt" : [ 2023, 1, 13, 19, 13, 39 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "logali",
+        "mta_version" : "0.0.1",
+        "mta_resource" : "{\"name\":\"uaa_logali\"}"
+      },
+      "labels" : {
+        "mta_id" : "b635926e954ad71675388bdaca112343"
+      }
+    },
+    "label" : "xsuaa",
+    "plan" : "application",
+    "credentials" : "********",
+    "tags" : [ ],
+    "type" : "managed",
+    "lastOperation" : {
+      "type" : "CREATE",
+      "description" : "",
+      "state" : "SUCCEEDED"
+    },
+    "resourceName" : "uaa_logali"
+  }, {
+    "name" : "logali-destination-service",
+    "metadata" : {
+      "guid" : "58be188a-ee85-4ae3-b8be-d720cccbd891",
+      "createdAt" : [ 2023, 1, 13, 19, 13, 41 ],
+      "updatedAt" : [ 2023, 1, 13, 19, 13, 42 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "logali",
+        "mta_version" : "0.0.1",
+        "mta_resource" : "{\"name\":\"logali-destination-service\"}"
+      },
+      "labels" : {
+        "mta_id" : "b635926e954ad71675388bdaca112343"
+      }
+    },
+    "label" : "destination",
+    "plan" : "lite",
+    "credentials" : "********",
+    "tags" : [ ],
+    "type" : "managed",
+    "lastOperation" : {
+      "type" : "CREATE",
+      "description" : "",
+      "state" : "SUCCEEDED"
+    },
+    "resourceName" : "logali-destination-service"
+  }, {
+    "name" : "logali_html_repo_host",
+    "metadata" : {
+      "guid" : "596b4037-832f-42f9-925e-e52c1302fb2b",
+      "createdAt" : [ 2023, 1, 13, 19, 13, 40 ],
+      "updatedAt" : [ 2023, 1, 13, 19, 13, 42 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "logali",
+        "mta_version" : "0.0.1",
+        "mta_resource" : "{\"name\":\"logali_html_repo_host\"}"
+      },
+      "labels" : {
+        "mta_id" : "b635926e954ad71675388bdaca112343"
+      }
+    },
+    "label" : "html5-apps-repo",
+    "plan" : "app-host",
+    "credentials" : "********",
+    "tags" : [ ],
+    "type" : "managed",
+    "lastOperation" : {
+      "type" : "CREATE",
+      "description" : "",
+      "state" : "SUCCEEDED"
+    },
+    "resourceName" : "logali_html_repo_host"
+  }, {
+    "name" : "logali_html_repo_runtime",
+    "metadata" : {
+      "guid" : "e41296f7-8cfb-47f8-a7b8-277f5dfc5996",
+      "createdAt" : [ 2023, 1, 13, 19, 13, 39 ],
+      "updatedAt" : [ 2023, 1, 13, 19, 13, 40 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "logali",
+        "mta_version" : "0.0.1",
+        "mta_resource" : "{\"name\":\"logali_html_repo_runtime\"}"
+      },
+      "labels" : {
+        "mta_id" : "b635926e954ad71675388bdaca112343"
+      }
+    },
+    "label" : "html5-apps-repo",
+    "plan" : "app-runtime",
+    "credentials" : "********",
+    "tags" : [ ],
+    "type" : "managed",
+    "lastOperation" : {
+      "type" : "CREATE",
+      "description" : "",
+      "state" : "SUCCEEDED"
+    },
+    "resourceName" : "logali_html_repo_runtime"
+  } ]
+}#
+
+#2.0#2023 01 13 19:22:45.092#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.detectDeployedMtaTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2088###
+[DetectDeployedMtaStep] Detected deployed MTA with ID "logali" and version "0.0.1"#
+
+#2.0#2023 01 13 19:22:45.202#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.detectDeployedMtaTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2088###
+[DetectDeployedMtaStep] Deployed MTA service keys: [ ]#
+
+#2.0#2023 01 13 19:22:45.202#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.detectDeployedMtaTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2088###
+Step "Detect Deployed MTA" finished#
+
+#2.0#2023 01 13 19:22:45.249#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2089###
+[CollectSystemParametersStep] Executing task "collectSystemParametersTask" of process "a7580c1b-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:45.251#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2089###
+[CollectSystemParametersStep] Collecting system parameters...#
+
+#2.0#2023 01 13 19:22:45.251#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2089###
+[CollectSystemParametersStep] Getting default domain...#
+
+#2.0#2023 01 13 19:22:45.292#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2089###
+[CollectSystemParametersStep] Default domain: cfapps.us10-001.hana.ondemand.com#
+
+#2.0#2023 01 13 19:22:45.292#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2089###
+[CollectSystemParametersStep] Checking for overwriting read-only parameters for mta with id: "logali"#
+
+#2.0#2023 01 13 19:22:45.292#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2089###
+[CollectSystemParametersStep] No read-only parameters are overwritten#
+
+#2.0#2023 01 13 19:22:45.311#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2089###
+[CollectSystemParametersStep] Descriptor with system parameters: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.2.0",
+  "id" : "logali",
+  "version" : "0.0.1",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "logali-approuter",
+    "type" : "javascript.nodejs",
+    "path" : "logali-approuter",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "logali-approuter",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "1d36982btrial-dev-logali-approuter",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "disk-quota" : "256M",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20230113192245"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "logali_html_repo_runtime",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "uaa_logali",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "logali-destination-service",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "ui5",
+        "forwardAuthToken" : "********",
+        "url" : "https://ui5.sap.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "logali-approuter",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "logali_ui_deployer",
+    "type" : "com.sap.application.content",
+    "path" : "logali_ui_deployer",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "logali_ui_deployer",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "1d36982btrial-dev-logali-ui-deployer",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20230113192245"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "logali_html_repo_host",
+      "properties" : { },
+      "parameters" : {
+        "content-target" : true
+      },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "logali_ui_deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "logali_html_repo_runtime",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "${default-service-name}",
+      "service-plan" : "app-runtime",
+      "service" : "html5-apps-repo",
+      "generated-user" : "********",
+      "default-xsappname" : "logali_html_repo_runtime",
+      "type" : "managed-service",
+      "default-service-name" : "logali_html_repo_runtime",
+      "default-container-name" : "1D36982BTRIAL_DEV_LOGALI_HTML_REPO_RUNTIME"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "uaa_logali",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "logali-xsuaa-service",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "uaa_logali",
+      "type" : "managed-service",
+      "default-service-name" : "uaa_logali",
+      "default-container-name" : "1D36982BTRIAL_DEV_UAA_LOGALI"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "logali_html_repo_host",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "${default-service-name}",
+      "service-plan" : "app-host",
+      "service" : "html5-apps-repo",
+      "generated-user" : "********",
+      "default-xsappname" : "logali_html_repo_host",
+      "type" : "managed-service",
+      "default-service-name" : "logali_html_repo_host",
+      "default-container-name" : "1D36982BTRIAL_DEV_LOGALI_HTML_REPO_HOST"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "logali-destination-service",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "logali-destination-service",
+      "service-plan" : "lite",
+      "service" : "destination",
+      "generated-user" : "********",
+      "default-xsappname" : "logali-destination-service",
+      "type" : "managed-service",
+      "config" : {
+        "HTML5Runtime_enabled" : false,
+        "init_data" : {
+          "instance" : {
+            "destinations" : [ {
+              "Authentication" : "********",
+              "Name" : "ui5",
+              "ProxyType" : "Internet",
+              "Type" : "HTTP",
+              "URL" : "https://ui5.sap.com"
+            } ],
+            "existing_destinations_policy" : "update"
+          }
+        },
+        "version" : "1.0.0"
+      },
+      "default-service-name" : "logali-destination-service",
+      "default-container-name" : "1D36982BTRIAL_DEV_LOGALI_DESTINATION_SERVICE"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  } ],
+  "parameters" : {
+    "deploy_mode" : "html5-repo",
+    "authorization-url" : "********",
+    "org-guid" : "a75c2d07-b738-4f9f-8722-fd2724a9f426",
+    "org" : "1d36982btrial",
+    "deploy-target" : "1d36982btrial dev",
+    "space" : "dev",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "xs-auth-url" : "********",
+    "space-guid" : "ab80c77d-73b2-4bf6-8908-42b376cc3c7c",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+
+#2.0#2023 01 13 19:22:45.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2089###
+[CollectSystemParametersStep] Version rule: SAME_HIGHER#
+
+#2.0#2023 01 13 19:22:45.313#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2089###
+[CollectSystemParametersStep] Detected new MTA version: "0.0.1"#
+
+#2.0#2023 01 13 19:22:45.318#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2089###
+[CollectSystemParametersStep] Deployed MTA version: "0.0.1"#
+
+#2.0#2023 01 13 19:22:45.322#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2089###
+[CollectSystemParametersStep] MTA accepted for deployment#
+
+#2.0#2023 01 13 19:22:45.323#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2089###
+[CollectSystemParametersStep] System parameters collected#
+
+#2.0#2023 01 13 19:22:45.323#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2089###
+Step "Collect System Parameters" finished#
+
+#2.0#2023 01 13 19:22:45.362#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[ProcessDescriptorStep] Executing task "processDescriptorTask" of process "a7580c1b-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:45.363#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+
+#2.0#2023 01 13 19:22:45.366#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[ProcessDescriptorStep] Subscriptions: [ ]#
+
+#2.0#2023 01 13 19:22:45.367#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[ProcessDescriptorStep] MTA Modules: [logali_ui_deployer, logali-approuter]#
+
+#2.0#2023 01 13 19:22:45.368#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.2.0",
+  "id" : "logali",
+  "version" : "0.0.1",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "logali-approuter",
+    "type" : "javascript.nodejs",
+    "path" : "logali-approuter",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://1d36982btrial-dev-logali-approuter.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "logali-approuter",
+      "generated-password" : "********",
+      "default-uri" : "1d36982btrial-dev-logali-approuter.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "1d36982btrial-dev-logali-approuter",
+      "app-name" : "logali-approuter",
+      "protocol" : "https",
+      "disk-quota" : "256M",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "1d36982btrial-dev-logali-approuter",
+      "generated-user" : "********",
+      "timestamp" : "20230113192245"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "logali_html_repo_runtime",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "uaa_logali",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "logali-destination-service",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "ui5",
+        "forwardAuthToken" : "********",
+        "url" : "https://ui5.sap.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "logali-approuter",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "logali_ui_deployer",
+    "type" : "com.sap.application.content",
+    "path" : "logali_ui_deployer",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://1d36982btrial-dev-logali-ui-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "logali_ui_deployer",
+      "generated-password" : "********",
+      "default-uri" : "1d36982btrial-dev-logali-ui-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "1d36982btrial-dev-logali-ui-deployer",
+      "app-name" : "logali_ui_deployer",
+      "protocol" : "https",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "1d36982btrial-dev-logali-ui-deployer",
+      "generated-user" : "********",
+      "timestamp" : "20230113192245"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "logali_html_repo_host",
+      "properties" : { },
+      "parameters" : {
+        "content-target" : true
+      },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "logali_ui_deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "logali_html_repo_runtime",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "logali_html_repo_runtime",
+      "service-plan" : "app-runtime",
+      "service" : "html5-apps-repo",
+      "generated-user" : "********",
+      "default-xsappname" : "logali_html_repo_runtime",
+      "type" : "managed-service",
+      "default-service-name" : "logali_html_repo_runtime",
+      "default-container-name" : "1D36982BTRIAL_DEV_LOGALI_HTML_REPO_RUNTIME"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "uaa_logali",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "logali-xsuaa-service",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "uaa_logali",
+      "type" : "managed-service",
+      "default-service-name" : "uaa_logali",
+      "default-container-name" : "1D36982BTRIAL_DEV_UAA_LOGALI"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "logali_html_repo_host",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "logali_html_repo_host",
+      "service-plan" : "app-host",
+      "service" : "html5-apps-repo",
+      "generated-user" : "********",
+      "default-xsappname" : "logali_html_repo_host",
+      "type" : "managed-service",
+      "default-service-name" : "logali_html_repo_host",
+      "default-container-name" : "1D36982BTRIAL_DEV_LOGALI_HTML_REPO_HOST"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "logali-destination-service",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "logali-destination-service",
+      "service-plan" : "lite",
+      "service" : "destination",
+      "generated-user" : "********",
+      "default-xsappname" : "logali-destination-service",
+      "type" : "managed-service",
+      "config" : {
+        "HTML5Runtime_enabled" : false,
+        "init_data" : {
+          "instance" : {
+            "destinations" : [ {
+              "Authentication" : "********",
+              "Name" : "ui5",
+              "ProxyType" : "Internet",
+              "Type" : "HTTP",
+              "URL" : "https://ui5.sap.com"
+            } ],
+            "existing_destinations_policy" : "update"
+          }
+        },
+        "version" : "1.0.0"
+      },
+      "default-service-name" : "logali-destination-service",
+      "default-container-name" : "1D36982BTRIAL_DEV_LOGALI_DESTINATION_SERVICE"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  } ],
+  "parameters" : {
+    "deploy_mode" : "html5-repo",
+    "authorization-url" : "********",
+    "org-guid" : "a75c2d07-b738-4f9f-8722-fd2724a9f426",
+    "org" : "1d36982btrial",
+    "deploy-target" : "1d36982btrial dev",
+    "space" : "dev",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "xs-auth-url" : "********",
+    "space-guid" : "ab80c77d-73b2-4bf6-8908-42b376cc3c7c",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+
+#2.0#2023 01 13 19:22:45.368#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+
+#2.0#2023 01 13 19:22:45.368#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.processDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+Step "Process Descriptor Step" finished#
+
+#2.0#2023 01 13 19:22:45.409#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2083###
+[XS2BuildCloudDeployModelStep] Executing task "buildDeployModelTask" of process "a7580c1b-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:45.411#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2083###
+[XS2BuildCloudDeployModelStep] Service keys defined for content deployment grouped by service name: {
+  "logali_html_repo_host" : [ {
+    "name" : "********",
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "logali",
+        "mta_version" : "0.0.1"
+      },
+      "labels" : {
+        "mta_id" : "b635926e954ad71675388bdaca112343",
+        "space_guid" : "ab80c77d-73b2-4bf6-8908-42b376cc3c7c"
+      }
+    },
+    "credentials" : "********",
+    "moduleName" : "logali_ui_deployer",
+    "resourceName" : "logali_html_repo_host",
+    "serviceInstance" : {
+      "isOptional" : false,
+      "isManaged" : false,
+      "name" : "logali_html_repo_host",
+      "credentials" : "********",
+      "tags" : [ ],
+      "shouldSkipParametersUpdate" : false,
+      "shouldSkipPlanUpdate" : false,
+      "shouldSkipTagsUpdate" : false,
+      "shouldSkipSyslogUrlUpdate" : false
+    }
+  } ]
+}#
+
+#2.0#2023 01 13 19:22:45.412#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2083###
+[XS2BuildCloudDeployModelStep] Building cloud deployment model...#
+
+#2.0#2023 01 13 19:22:45.414#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2083###
+[XS2BuildCloudDeployModelStep] MTA archive modules: [logali_ui_deployer, logali-approuter]#
+
+#2.0#2023 01 13 19:22:45.414#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2083###
+[XS2BuildCloudDeployModelStep] Deployed modules: []#
+
+#2.0#2023 01 13 19:22:45.415#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2083###
+[XS2BuildCloudDeployModelStep] MTA modules: [logali_ui_deployer, logali-approuter]#
+
+#2.0#2023 01 13 19:22:45.415#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2083###
+[XS2BuildCloudDeployModelStep] Service keys to create: {
+  "uaa_logali" : [ ],
+  "logali-destination-service" : [ ],
+  "logali_html_repo_runtime" : [ ],
+  "logali_html_repo_host" : [ ]
+}#
+
+#2.0#2023 01 13 19:22:45.416#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2083###
+[XS2BuildCloudDeployModelStep] Modules to deploy: [{
+  "majorSchemaVersion" : 3,
+  "name" : "logali-approuter",
+  "type" : "javascript.nodejs",
+  "path" : "logali-approuter",
+  "properties" : { },
+  "parameters" : {
+    "default-url" : "https://1d36982btrial-dev-logali-approuter.cfapps.us10-001.hana.ondemand.com",
+    "default-app-name" : "logali-approuter",
+    "generated-password" : "********",
+    "default-uri" : "1d36982btrial-dev-logali-approuter.cfapps.us10-001.hana.ondemand.com",
+    "memory" : "256M",
+    "default-instances" : 1,
+    "instances" : 1,
+    "default-host" : "1d36982btrial-dev-logali-approuter",
+    "app-name" : "logali-approuter",
+    "protocol" : "https",
+    "disk-quota" : "256M",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "host" : "1d36982btrial-dev-logali-approuter",
+    "generated-user" : "********",
+    "timestamp" : "20230113192245"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "logali_html_repo_runtime",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "uaa_logali",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "logali-destination-service",
+    "group" : "destinations",
+    "properties" : {
+      "name" : "ui5",
+      "forwardAuthToken" : "********",
+      "url" : "https://ui5.sap.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "logali-approuter",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "hooks" : [ ]
+}, {
+  "majorSchemaVersion" : 3,
+  "name" : "logali_ui_deployer",
+  "type" : "com.sap.application.content",
+  "path" : "logali_ui_deployer",
+  "properties" : { },
+  "parameters" : {
+    "default-url" : "https://1d36982btrial-dev-logali-ui-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-app-name" : "logali_ui_deployer",
+    "generated-password" : "********",
+    "default-uri" : "1d36982btrial-dev-logali-ui-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-instances" : 1,
+    "instances" : 1,
+    "default-host" : "1d36982btrial-dev-logali-ui-deployer",
+    "app-name" : "logali_ui_deployer",
+    "protocol" : "https",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "host" : "1d36982btrial-dev-logali-ui-deployer",
+    "generated-user" : "********",
+    "timestamp" : "20230113192245"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "logali_html_repo_host",
+    "properties" : { },
+    "parameters" : {
+      "content-target" : true
+    },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "logali_ui_deployer",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "hooks" : [ ]
+}]#
+
+#2.0#2023 01 13 19:22:45.417#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2083###
+[XS2BuildCloudDeployModelStep] Custom domains: []#
+
+#2.0#2023 01 13 19:22:45.417#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2083###
+[XS2BuildCloudDeployModelStep] Detecting service keys to delete.#
+
+#2.0#2023 01 13 19:22:45.418#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2083###
+[XS2BuildCloudDeployModelStep] No deployed service keys detected!#
+
+#2.0#2023 01 13 19:22:45.419#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2083###
+[XS2BuildCloudDeployModelStep] Calculating resource batches...#
+
+#2.0#2023 01 13 19:22:45.419#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2083###
+[XS2BuildCloudDeployModelStep] Calculating resource batches completed.#
+
+#2.0#2023 01 13 19:22:45.419#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2083###
+[XS2BuildCloudDeployModelStep] Cloud deployment model built#
+
+#2.0#2023 01 13 19:22:45.420#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2083###
+Step "Build Deploy Model" finished#
+
+#2.0#2023 01 13 19:22:45.472#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildUndeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[BuildCloudUndeployModelStep] Executing task "buildUndeployModelTask" of process "a7580c1b-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:45.473#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildUndeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[BuildCloudUndeployModelStep] Building cloud undeployment model...#
+
+#2.0#2023 01 13 19:22:45.479#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildUndeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[BuildCloudUndeployModelStep] MTA modules: [logali_ui_deployer, logali-approuter]#
+
+#2.0#2023 01 13 19:22:45.479#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildUndeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[BuildCloudUndeployModelStep] Modules to undeploy: [ ]#
+
+#2.0#2023 01 13 19:22:45.479#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildUndeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[BuildCloudUndeployModelStep] Modules that wont be changed: {0}#
+
+#2.0#2023 01 13 19:22:45.480#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildUndeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[BuildCloudUndeployModelStep] Subscriptions to delete: [ ]#
+
+#2.0#2023 01 13 19:22:45.482#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildUndeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[BuildCloudUndeployModelStep] Cloud services to delete: []#
+
+#2.0#2023 01 13 19:22:45.482#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildUndeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[BuildCloudUndeployModelStep] Cloud applications to undeploy: [ ]#
+
+#2.0#2023 01 13 19:22:45.482#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildUndeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[BuildCloudUndeployModelStep] Cloud undeployment model built#
+
+#2.0#2023 01 13 19:22:45.482#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildUndeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+Step "Build Undeploy Model" finished#
+
+#2.0#2023 01 13 19:22:45.522#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.addDomainsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+[AddDomainsStep] Executing task "addDomainsTask" of process "a7580c1b-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:45.524#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.addDomainsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+[AddDomainsStep] Custom domains: []#
+
+#2.0#2023 01 13 19:22:45.524#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.addDomainsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+Step "Add Domains" finished#
+
+#2.0#2023 01 13 19:22:45.661#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.prepareModulesDeploymentTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+[ExtractBatchedServicesStep] Executing task "prepareModulesDeploymentTask" of process "a882aa61-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:45.662#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.prepareModulesDeploymentTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+[ExtractBatchedServicesStep] Extracting services from batch#
+
+#2.0#2023 01 13 19:22:45.664#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.prepareModulesDeploymentTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+[ExtractBatchedServicesStep] Services to create: [ {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "logali_html_repo_runtime",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "logali",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"logali_html_repo_runtime\"}"
+    },
+    "labels" : {
+      "mta_id" : "b635926e954ad71675388bdaca112343"
+    }
+  },
+  "label" : "html5-apps-repo",
+  "plan" : "app-runtime",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "logali_html_repo_runtime",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}, {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "logali-xsuaa-service",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "logali",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"uaa_logali\"}"
+    },
+    "labels" : {
+      "mta_id" : "b635926e954ad71675388bdaca112343"
+    }
+  },
+  "label" : "xsuaa",
+  "plan" : "application",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "uaa_logali",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}, {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "logali_html_repo_host",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "logali",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"logali_html_repo_host\"}"
+    },
+    "labels" : {
+      "mta_id" : "b635926e954ad71675388bdaca112343"
+    }
+  },
+  "label" : "html5-apps-repo",
+  "plan" : "app-host",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "logali_html_repo_host",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}, {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "logali-destination-service",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "logali",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"logali-destination-service\"}"
+    },
+    "labels" : {
+      "mta_id" : "b635926e954ad71675388bdaca112343"
+    }
+  },
+  "label" : "destination",
+  "plan" : "lite",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "logali-destination-service",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+} ]#
+
+#2.0#2023 01 13 19:22:45.664#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.prepareModulesDeploymentTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+Step "Extract Services From Batches" finished#
+
+#2.0#2023 01 13 19:22:45.770#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.CheckServiceOperationStateTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "a8979130-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:45.771#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.CheckServiceOperationStateTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+[CheckServiceOperationStateStep] Getting service instance "logali-xsuaa-service"...#
+
+#2.0#2023 01 13 19:22:46.140#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.CheckServiceOperationStateTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2084###
+Step "Check for service operations in Progress" finished#
+
+#2.0#2023 01 13 19:22:46.178#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "a8979130-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:46.179#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "logali-xsuaa-service"...#
+
+#2.0#2023 01 13 19:22:46.184#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "logali-xsuaa-service"...#
+
+#2.0#2023 01 13 19:22:46.594#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+[DetermineServiceCreateUpdateServiceActionsStep] Setting service "logali-xsuaa-service" parameters from "xs-security.json"#
+
+#2.0#2023 01 13 19:22:46.769#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+[DetermineServiceCreateUpdateServiceActionsStep] Existing service: {
+  "name" : "logali-xsuaa-service",
+  "metadata" : {
+    "guid" : "15a529bf-4ddc-4f44-b02b-c789ebb0621f",
+    "createdAt" : [ 2023, 1, 13, 19, 13, 39 ],
+    "updatedAt" : [ 2023, 1, 13, 19, 13, 39 ]
+  },
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "logali",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"uaa_logali\"}"
+    },
+    "labels" : {
+      "mta_id" : "b635926e954ad71675388bdaca112343"
+    }
+  },
+  "label" : "xsuaa",
+  "plan" : "application",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "lastOperation" : {
+    "type" : "CREATE",
+    "description" : "",
+    "state" : "SUCCEEDED"
+  }
+}#
+
+#2.0#2023 01 13 19:22:46.769#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+[DetermineServiceCreateUpdateServiceActionsStep] Getting parameters of service instance "15a529bf-4ddc-4f44-b02b-c789ebb0621f"...#
+
+#2.0#2023 01 13 19:22:46.833#Z#WARN#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+[DetermineServiceCreateUpdateServiceActionsStep] Cannot retrieve service instance parameters of service "logali-xsuaa-service"#
+
+#2.0#2023 01 13 19:22:46.833#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+[DetermineServiceCreateUpdateServiceActionsStep] Service parameters should be updated#
+
+#2.0#2023 01 13 19:22:46.833#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+[DetermineServiceCreateUpdateServiceActionsStep] New parameters: {
+  "description" : "Security profile of called application",
+  "role-templates" : [ {
+    "name" : "********",
+    "description" : "UAA",
+    "scope-references" : [ "********" ]
+  } ],
+  "scopes" : [ {
+    "name" : "********",
+    "description" : "UAA"
+  } ],
+  "tenant-mode" : "dedicated",
+  "xsappname" : "logali"
+}#
+
+#2.0#2023 01 13 19:22:46.833#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2085###
+Step "Determine update actions" finished#
+
+#2.0#2023 01 13 19:22:46.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2086###
+[UpdateServiceParametersStep] Executing task "UpdateServiceParametersTask" of process "a8979130-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:46.893#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2086###
+[UpdateServiceParametersStep] Updating service "logali-xsuaa-service"...#
+
+#2.0#2023 01 13 19:22:46.898#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2086###
+[UpdateServiceParametersStep] Updating service parameters for service "logali-xsuaa-service"...#
+
+#2.0#2023 01 13 19:22:47.077#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2086###
+[UpdateServiceParametersStep] Service "logali-xsuaa-service" updated#
+
+#2.0#2023 01 13 19:22:47.077#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2086###
+[UpdateServiceParametersStep] Triggered service operations: {
+  "logali-xsuaa-service" : "UPDATE"
+}#
+
+#2.0#2023 01 13 19:22:47.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2086###
+Step "Update parameters" finished#
+
+#2.0#2023 01 13 19:22:46.772#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.CheckServiceOperationStateTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1240###
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "a92d1ac4-9377-11ed-9f91-eeee0a910490"...#
+
+#2.0#2023 01 13 19:22:46.883#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.CheckServiceOperationStateTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1240###
+[CheckServiceOperationStateStep] Getting service instance "logali_html_repo_runtime"...#
+
+#2.0#2023 01 13 19:22:47.332#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.CheckServiceOperationStateTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1240###
+Step "Check for service operations in Progress" finished#
+
+#2.0#2023 01 13 19:22:47.111#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.CheckServiceOperationStateTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2046###
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "a961e6bd-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:22:47.216#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.CheckServiceOperationStateTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2046###
+[CheckServiceOperationStateStep] Getting service instance "logali_html_repo_host"...#
+
+#2.0#2023 01 13 19:22:47.791#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.CheckServiceOperationStateTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2046###
+Step "Check for service operations in Progress" finished#
+
+#2.0#2023 01 13 19:22:47.382#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1241###
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "a92d1ac4-9377-11ed-9f91-eeee0a910490"...#
+
+#2.0#2023 01 13 19:22:47.384#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1241###
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "logali_html_repo_runtime"...#
+
+#2.0#2023 01 13 19:22:47.390#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1241###
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "logali_html_repo_runtime"...#
+
+#2.0#2023 01 13 19:22:47.911#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1241###
+[DetermineServiceCreateUpdateServiceActionsStep] Existing service: {
+  "name" : "logali_html_repo_runtime",
+  "metadata" : {
+    "guid" : "e41296f7-8cfb-47f8-a7b8-277f5dfc5996",
+    "createdAt" : [ 2023, 1, 13, 19, 13, 39 ],
+    "updatedAt" : [ 2023, 1, 13, 19, 13, 40 ]
+  },
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "logali",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"logali_html_repo_runtime\"}"
+    },
+    "labels" : {
+      "mta_id" : "b635926e954ad71675388bdaca112343"
+    }
+  },
+  "label" : "html5-apps-repo",
+  "plan" : "app-runtime",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "lastOperation" : {
+    "type" : "CREATE",
+    "description" : "",
+    "state" : "SUCCEEDED"
+  }
+}#
+
+#2.0#2023 01 13 19:22:47.911#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1241###
+[DetermineServiceCreateUpdateServiceActionsStep] Getting parameters of service instance "e41296f7-8cfb-47f8-a7b8-277f5dfc5996"...#
+
+#2.0#2023 01 13 19:22:47.956#Z#WARN#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1241###
+[DetermineServiceCreateUpdateServiceActionsStep] Cannot retrieve service instance parameters of service "logali_html_repo_runtime"#
+
+#2.0#2023 01 13 19:22:47.956#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1241###
+Step "Determine update actions" finished#
+
+#2.0#2023 01 13 19:22:47.831#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2047###
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "a961e6bd-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:22:47.832#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2047###
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "logali_html_repo_host"...#
+
+#2.0#2023 01 13 19:22:47.837#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2047###
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "logali_html_repo_host"...#
+
+#2.0#2023 01 13 19:22:48.488#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2047###
+[DetermineServiceCreateUpdateServiceActionsStep] Existing service: {
+  "name" : "logali_html_repo_host",
+  "metadata" : {
+    "guid" : "596b4037-832f-42f9-925e-e52c1302fb2b",
+    "createdAt" : [ 2023, 1, 13, 19, 13, 40 ],
+    "updatedAt" : [ 2023, 1, 13, 19, 13, 42 ]
+  },
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "logali",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"logali_html_repo_host\"}"
+    },
+    "labels" : {
+      "mta_id" : "b635926e954ad71675388bdaca112343"
+    }
+  },
+  "label" : "html5-apps-repo",
+  "plan" : "app-host",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "lastOperation" : {
+    "type" : "CREATE",
+    "description" : "",
+    "state" : "SUCCEEDED"
+  }
+}#
+
+#2.0#2023 01 13 19:22:48.488#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2047###
+[DetermineServiceCreateUpdateServiceActionsStep] Getting parameters of service instance "596b4037-832f-42f9-925e-e52c1302fb2b"...#
+
+#2.0#2023 01 13 19:22:48.541#Z#WARN#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2047###
+[DetermineServiceCreateUpdateServiceActionsStep] Cannot retrieve service instance parameters of service "logali_html_repo_host"#
+
+#2.0#2023 01 13 19:22:48.542#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2047###
+Step "Determine update actions" finished#
+
+#2.0#2023 01 13 19:22:48.603#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.CheckServiceOperationStateTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "aa48c3e4-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:48.603#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.CheckServiceOperationStateTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+[CheckServiceOperationStateStep] Getting service instance "logali-destination-service"...#
+
+#2.0#2023 01 13 19:22:49.070#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.CheckServiceOperationStateTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+Step "Check for service operations in Progress" finished#
+
+#2.0#2023 01 13 19:22:49.109#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "aa48c3e4-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:49.110#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "logali-destination-service"...#
+
+#2.0#2023 01 13 19:22:49.115#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "logali-destination-service"...#
+
+#2.0#2023 01 13 19:22:49.581#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[DetermineServiceCreateUpdateServiceActionsStep] Existing service: {
+  "name" : "logali-destination-service",
+  "metadata" : {
+    "guid" : "58be188a-ee85-4ae3-b8be-d720cccbd891",
+    "createdAt" : [ 2023, 1, 13, 19, 13, 41 ],
+    "updatedAt" : [ 2023, 1, 13, 19, 13, 42 ]
+  },
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "logali",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"logali-destination-service\"}"
+    },
+    "labels" : {
+      "mta_id" : "b635926e954ad71675388bdaca112343"
+    }
+  },
+  "label" : "destination",
+  "plan" : "lite",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "lastOperation" : {
+    "type" : "CREATE",
+    "description" : "",
+    "state" : "SUCCEEDED"
+  }
+}#
+
+#2.0#2023 01 13 19:22:49.581#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[DetermineServiceCreateUpdateServiceActionsStep] Getting parameters of service instance "58be188a-ee85-4ae3-b8be-d720cccbd891"...#
+
+#2.0#2023 01 13 19:22:49.634#Z#WARN#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[DetermineServiceCreateUpdateServiceActionsStep] Cannot retrieve service instance parameters of service "logali-destination-service"#
+
+#2.0#2023 01 13 19:22:49.634#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[DetermineServiceCreateUpdateServiceActionsStep] Service parameters should be updated#
+
+#2.0#2023 01 13 19:22:49.634#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[DetermineServiceCreateUpdateServiceActionsStep] New parameters: {
+  "HTML5Runtime_enabled" : false,
+  "init_data" : {
+    "instance" : {
+      "destinations" : [ {
+        "Authentication" : "********",
+        "Name" : "ui5",
+        "ProxyType" : "Internet",
+        "Type" : "HTTP",
+        "URL" : "https://ui5.sap.com"
+      } ],
+      "existing_destinations_policy" : "update"
+    }
+  },
+  "version" : "1.0.0"
+}#
+
+#2.0#2023 01 13 19:22:49.634#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+Step "Determine update actions" finished#
+
+#2.0#2023 01 13 19:22:49.696#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[UpdateServiceParametersStep] Executing task "UpdateServiceParametersTask" of process "aa48c3e4-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:49.698#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[UpdateServiceParametersStep] Updating service "logali-destination-service"...#
+
+#2.0#2023 01 13 19:22:49.703#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[UpdateServiceParametersStep] Updating service parameters for service "logali-destination-service"...#
+
+#2.0#2023 01 13 19:22:49.906#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[UpdateServiceParametersStep] Service "logali-destination-service" updated#
+
+#2.0#2023 01 13 19:22:49.906#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+[UpdateServiceParametersStep] Triggered service operations: {
+  "logali-destination-service" : "UPDATE"
+}#
+
+#2.0#2023 01 13 19:22:49.907#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2082###
+Step "Update parameters" finished#
+
+#2.0#2023 01 13 19:22:55.252#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2091###
+[UpdateServiceParametersStep] Executing task "UpdateServiceParametersTask" of process "a8979130-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:55.253#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2091###
+[UpdateServiceParametersStep] Polling service operations...#
+
+#2.0#2023 01 13 19:22:55.255#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2091###
+[UpdateServiceParametersStep] Getting service instance "logali-xsuaa-service"...#
+
+#2.0#2023 01 13 19:22:55.723#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2091###
+[UpdateServiceParametersStep] Last operation for service "logali-xsuaa-service": {
+  "type" : "UPDATE",
+  "description" : "",
+  "state" : "SUCCEEDED"
+}#
+
+#2.0#2023 01 13 19:22:55.723#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2091###
+[UpdateServiceParametersStep] Service "logali-xsuaa-service" updated#
+
+#2.0#2023 01 13 19:22:55.723#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2091###
+[UpdateServiceParametersStep] 1 of 1 done#
+
+#2.0#2023 01 13 19:22:55.728#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2091###
+[UpdateServiceParametersStep] Remaining services to poll: [ ]#
+
+#2.0#2023 01 13 19:22:55.730#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2091###
+Step "Update parameters" finished#
+
+#2.0#2023 01 13 19:22:55.262#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2050###
+[UpdateServiceParametersStep] Executing task "UpdateServiceParametersTask" of process "aa48c3e4-9377-11ed-b4eb-eeee0a868da1"...#
+
+#2.0#2023 01 13 19:22:55.263#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2050###
+[UpdateServiceParametersStep] Polling service operations...#
+
+#2.0#2023 01 13 19:22:55.266#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2050###
+[UpdateServiceParametersStep] Getting service instance "logali-destination-service"...#
+
+#2.0#2023 01 13 19:22:55.838#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2050###
+[UpdateServiceParametersStep] Last operation for service "logali-destination-service": {
+  "type" : "UPDATE",
+  "description" : "",
+  "state" : "SUCCEEDED"
+}#
+
+#2.0#2023 01 13 19:22:55.838#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2050###
+[UpdateServiceParametersStep] Service "logali-destination-service" updated#
+
+#2.0#2023 01 13 19:22:55.839#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2050###
+[UpdateServiceParametersStep] 1 of 1 done#
+
+#2.0#2023 01 13 19:22:55.845#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2050###
+[UpdateServiceParametersStep] Remaining services to poll: [ ]#
+
+#2.0#2023 01 13 19:22:55.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.UpdateServiceParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2050###
+Step "Update parameters" finished#
+
+#2.0#2023 01 13 19:22:56.133#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.prepareModulesDeploymentTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2053###
+[PrepareModulesDeploymentStep] Executing task "prepareModulesDeploymentTask" of process "aec0690f-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:22:56.135#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.prepareModulesDeploymentTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2053###
+[PrepareModulesDeploymentStep] Preparing modules deployment...#
+
+#2.0#2023 01 13 19:22:56.140#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.prepareModulesDeploymentTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2053###
+Step "Prepare Modules Deployment" finished#
+
+#2.0#2023 01 13 19:22:56.296#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.reprocessDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2055###
+[ProcessDescriptorStep] Executing task "reprocessDescriptorTask" of process "aed85e81-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:22:56.297#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.reprocessDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2055###
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+
+#2.0#2023 01 13 19:22:56.300#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.reprocessDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2055###
+[ProcessDescriptorStep] Subscriptions: [ ]#
+
+#2.0#2023 01 13 19:22:56.306#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.reprocessDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2055###
+[ProcessDescriptorStep] MTA Modules: [logali_ui_deployer, logali-approuter]#
+
+#2.0#2023 01 13 19:22:56.310#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.reprocessDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2055###
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.2.0",
+  "id" : "logali",
+  "version" : "0.0.1",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "logali-approuter",
+    "type" : "javascript.nodejs",
+    "path" : "logali-approuter",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://1d36982btrial-dev-logali-approuter.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "logali-approuter",
+      "generated-password" : "********",
+      "default-uri" : "1d36982btrial-dev-logali-approuter.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "1d36982btrial-dev-logali-approuter",
+      "app-name" : "logali-approuter",
+      "protocol" : "https",
+      "disk-quota" : "256M",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "1d36982btrial-dev-logali-approuter",
+      "generated-user" : "********",
+      "timestamp" : "20230113192245"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "logali_html_repo_runtime",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "uaa_logali",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "logali-destination-service",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "ui5",
+        "forwardAuthToken" : "********",
+        "url" : "https://ui5.sap.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "logali-approuter",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "logali_ui_deployer",
+    "type" : "com.sap.application.content",
+    "path" : "logali_ui_deployer",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://1d36982btrial-dev-logali-ui-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "logali_ui_deployer",
+      "generated-password" : "********",
+      "default-uri" : "1d36982btrial-dev-logali-ui-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "1d36982btrial-dev-logali-ui-deployer",
+      "app-name" : "logali_ui_deployer",
+      "protocol" : "https",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "1d36982btrial-dev-logali-ui-deployer",
+      "generated-user" : "********",
+      "timestamp" : "20230113192245"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "logali_html_repo_host",
+      "properties" : { },
+      "parameters" : {
+        "content-target" : true
+      },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "logali_ui_deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "logali_html_repo_runtime",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "logali_html_repo_runtime",
+      "service-plan" : "app-runtime",
+      "service" : "html5-apps-repo",
+      "generated-user" : "********",
+      "default-xsappname" : "logali_html_repo_runtime",
+      "type" : "managed-service",
+      "default-service-name" : "logali_html_repo_runtime",
+      "default-container-name" : "1D36982BTRIAL_DEV_LOGALI_HTML_REPO_RUNTIME"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "uaa_logali",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "logali-xsuaa-service",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "uaa_logali",
+      "type" : "managed-service",
+      "default-service-name" : "uaa_logali",
+      "default-container-name" : "1D36982BTRIAL_DEV_UAA_LOGALI"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "logali_html_repo_host",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "logali_html_repo_host",
+      "service-plan" : "app-host",
+      "service" : "html5-apps-repo",
+      "generated-user" : "********",
+      "default-xsappname" : "logali_html_repo_host",
+      "type" : "managed-service",
+      "default-service-name" : "logali_html_repo_host",
+      "default-container-name" : "1D36982BTRIAL_DEV_LOGALI_HTML_REPO_HOST"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "logali-destination-service",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "logali-destination-service",
+      "service-plan" : "lite",
+      "service" : "destination",
+      "generated-user" : "********",
+      "default-xsappname" : "logali-destination-service",
+      "type" : "managed-service",
+      "config" : {
+        "HTML5Runtime_enabled" : false,
+        "init_data" : {
+          "instance" : {
+            "destinations" : [ {
+              "Authentication" : "********",
+              "Name" : "ui5",
+              "ProxyType" : "Internet",
+              "Type" : "HTTP",
+              "URL" : "https://ui5.sap.com"
+            } ],
+            "existing_destinations_policy" : "update"
+          }
+        },
+        "version" : "1.0.0"
+      },
+      "default-service-name" : "logali-destination-service",
+      "default-container-name" : "1D36982BTRIAL_DEV_LOGALI_DESTINATION_SERVICE"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  } ],
+  "parameters" : {
+    "deploy_mode" : "html5-repo",
+    "authorization-url" : "********",
+    "org-guid" : "a75c2d07-b738-4f9f-8722-fd2724a9f426",
+    "org" : "1d36982btrial",
+    "deploy-target" : "1d36982btrial dev",
+    "space" : "dev",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "xs-auth-url" : "********",
+    "space-guid" : "ab80c77d-73b2-4bf6-8908-42b376cc3c7c",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+
+#2.0#2023 01 13 19:22:56.310#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.reprocessDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2055###
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+
+#2.0#2023 01 13 19:22:56.310#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.reprocessDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2055###
+Step "Re-Process Descriptor Step" finished#
+
+#2.0#2023 01 13 19:22:56.348#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildApplicationDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2056###
+[BuildApplicationDeployModelStep] Executing task "buildApplicationDeployModelTask" of process "aed85e81-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:22:56.351#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildApplicationDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2056###
+[BuildApplicationDeployModelStep] Building cloud deployment model for application "logali-approuter"...#
+
+#2.0#2023 01 13 19:22:56.356#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildApplicationDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2056###
+[BuildApplicationDeployModelStep] No health-check-type is specified. Setting default type: port#
+
+#2.0#2023 01 13 19:22:56.356#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildApplicationDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2056###
+[BuildApplicationDeployModelStep] Building configuration entries for org 1d36982btrial, space dev, spaceId ab80c77d-73b2-4bf6-8908-42b376cc3c7c and namespace null!#
+
+#2.0#2023 01 13 19:22:56.357#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildApplicationDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2056###
+[BuildApplicationDeployModelStep] Configuration entries to publish: [ ]#
+
+#2.0#2023 01 13 19:22:56.357#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildApplicationDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2056###
+[BuildApplicationDeployModelStep] Cloud deployment model for application built#
+
+#2.0#2023 01 13 19:22:56.358#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.buildApplicationDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2056###
+Step "Build Application Deploy Model" finished#
+
+#2.0#2023 01 13 19:22:56.405#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.createAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2056###
+[CreateOrUpdateAppStep] Executing task "createAppTask" of process "aed85e81-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:22:56.407#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.createAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2056###
+[CreateOrUpdateAppStep] Getting application "logali-approuter"...#
+
+#2.0#2023 01 13 19:22:56.474#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.createAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2056###
+[CreateOrUpdateAppStep] Creating application "logali-approuter" from MTA module "logali-approuter"...#
+
+#2.0#2023 01 13 19:22:56.479#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.createAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2056###
+[CreateOrUpdateAppStep] Creating application "logali-approuter" with memory "256", URIs "1d36982btrial-dev-logali-approuter.cfapps.us10-001.hana.ondemand.com" and staging: {
+  "buildpacks" : [ ],
+  "healthCheckType" : "port"
+}#
+
+#2.0#2023 01 13 19:23:00.829#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.createAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2056###
+[CreateOrUpdateAppStep] Updating environment of application "logali-approuter"#
+
+#2.0#2023 01 13 19:23:00.982#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.createAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2056###
+[CreateOrUpdateAppStep] Application "logali-approuter" created#
+
+#2.0#2023 01 13 19:23:00.982#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.createAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2056###
+Step "Create App" finished#
+
+#2.0#2023 01 13 19:23:01.195#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2060###
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "b1be8e4c-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:23:01.197#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2060###
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "logali-approuter" to service instance "logali-xsuaa-service"#
+
+#2.0#2023 01 13 19:23:01.197#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2060###
+[DetermineApplicationServiceBindingActionsStep] Getting application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:01.267#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2060###
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "logali-approuter": { }#
+
+#2.0#2023 01 13 19:23:01.333#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2060###
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "logali-approuter" and service instance "logali-xsuaa-service": unbind - false bind - true#
+
+#2.0#2023 01 13 19:23:01.333#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2060###
+Step "Determine Application Service Binding Actions" finished#
+
+#2.0#2023 01 13 19:23:01.865#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1245###
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "b229faf5-9377-11ed-9f91-eeee0a910490"...#
+
+#2.0#2023 01 13 19:23:01.867#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1245###
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "logali-approuter" to service instance "logali_html_repo_runtime"#
+
+#2.0#2023 01 13 19:23:01.867#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1245###
+[DetermineApplicationServiceBindingActionsStep] Getting application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:01.933#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1245###
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "logali-approuter": { }#
+
+#2.0#2023 01 13 19:23:02.052#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1245###
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "logali-approuter" and service instance "logali_html_repo_runtime": unbind - false bind - true#
+
+#2.0#2023 01 13 19:23:02.052#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1245###
+Step "Determine Application Service Binding Actions" finished#
+
+#2.0#2023 01 13 19:23:02.186#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2063###
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "b25a59c4-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:23:02.187#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2063###
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "logali-approuter" to service instance "logali-destination-service"#
+
+#2.0#2023 01 13 19:23:02.187#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2063###
+[DetermineApplicationServiceBindingActionsStep] Getting application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:02.286#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2063###
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "logali-approuter": { }#
+
+#2.0#2023 01 13 19:23:02.365#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2063###
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "logali-approuter" and service instance "logali-destination-service": unbind - false bind - true#
+
+#2.0#2023 01 13 19:23:02.365#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2063###
+Step "Determine Application Service Binding Actions" finished#
+
+#2.0#2023 01 13 19:23:01.379#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2061###
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "b1be8e4c-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:23:01.381#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2061###
+[BindServiceToApplicationStep] Binding service instance "logali-xsuaa-service" to application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:01.387#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2061###
+[BindServiceToApplicationStep] Binding service instance "logali-xsuaa-service" to application "logali-approuter" with parameters: { }#
+
+#2.0#2023 01 13 19:23:02.406#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2063###
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "b25a59c4-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:23:02.409#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2063###
+[BindServiceToApplicationStep] Binding service instance "logali-destination-service" to application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:02.414#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2063###
+[BindServiceToApplicationStep] Binding service instance "logali-destination-service" to application "logali-approuter" with parameters: { }#
+
+#2.0#2023 01 13 19:23:02.723#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2061###
+[BindServiceToApplicationStep] Binding service instance "logali-xsuaa-service" to application "logali-approuter" finished#
+
+#2.0#2023 01 13 19:23:02.723#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2061###
+Step "Bind Service to Application" finished#
+
+#2.0#2023 01 13 19:23:02.101#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1246###
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "b229faf5-9377-11ed-9f91-eeee0a910490"...#
+
+#2.0#2023 01 13 19:23:02.104#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1246###
+[BindServiceToApplicationStep] Binding service instance "logali_html_repo_runtime" to application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:02.110#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1246###
+[BindServiceToApplicationStep] Binding service instance "logali_html_repo_runtime" to application "logali-approuter" with parameters: { }#
+
+#2.0#2023 01 13 19:23:03.486#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1246###
+[BindServiceToApplicationStep] Binding service instance "logali_html_repo_runtime" to application "logali-approuter" finished#
+
+#2.0#2023 01 13 19:23:03.486#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1246###
+Step "Bind Service to Application" finished#
+
+#2.0#2023 01 13 19:23:03.809#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2063###
+[BindServiceToApplicationStep] Binding service instance "logali-destination-service" to application "logali-approuter" finished#
+
+#2.0#2023 01 13 19:23:03.810#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2063###
+Step "Bind Service to Application" finished#
+
+#2.0#2023 01 13 19:23:04.008#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineVcapServicesPropertiesChangedTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2058###
+[DetermineVcapServicesPropertiesChangedStep] Executing task "determineVcapServicesPropertiesChangedTask" of process "b36dc4b1-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:23:04.010#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineVcapServicesPropertiesChangedTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2058###
+[DetermineVcapServicesPropertiesChangedStep] VCAP_SERVICES properties for application "logali-approuter" changed: true#
+
+#2.0#2023 01 13 19:23:04.011#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineVcapServicesPropertiesChangedTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2058###
+Step "Determine vcap services properties changed" finished#
+
+#2.0#2023 01 13 19:23:04.061#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2058###
+[UploadAppStep] Executing task "uploadAppTask" of process "b36dc4b1-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:23:04.062#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2058###
+[UploadAppStep] Upload app timeout in seconds: 3,600#
+
+#2.0#2023 01 13 19:23:04.063#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2058###
+[UploadAppStep] Uploading application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:04.250#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2058###
+[UploadAppStep] Getting application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:04.341#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2058###
+[UploadAppStep] Getting environment of application "b62ce2db-cc09-496c-bede-550514836353"...#
+
+#2.0#2023 01 13 19:23:04.398#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2058###
+[UploadAppStep] Uploading file "logali-approuter/data.zip" for application "logali-approuter"#
+
+#2.0#2023 01 13 19:23:04.568#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2058###
+[UploadAppStep] Asynchronously uploading binaries for application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:04.933#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2058###
+[UploadAppStep] Started async upload of application "logali-approuter"#
+
+#2.0#2023 01 13 19:23:04.939#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2058###
+[UploadAppStep] Updating environment of application "logali-approuter"#
+
+#2.0#2023 01 13 19:23:04.976#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########App upload monitor: 69f1aea1-e64c-4dee-8dad-c49c6f7bce04###
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+
+#2.0#2023 01 13 19:23:05.090#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2058###
+Step "Upload App" finished#
+
+#2.0#2023 01 13 19:23:10.048#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########App upload monitor: 69f1aea1-e64c-4dee-8dad-c49c6f7bce04###
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+
+#2.0#2023 01 13 19:23:15.094#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########App upload monitor: 69f1aea1-e64c-4dee-8dad-c49c6f7bce04###
+[UploadAppStep] Upload status: READY#
+
+#2.0#2023 01 13 19:23:15.268#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1252###
+[UploadAppStep] Executing task "uploadAppTask" of process "b36dc4b1-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:23:15.269#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1252###
+[UploadAppStep] Upload app timeout in seconds: 3,600#
+
+#2.0#2023 01 13 19:23:15.269#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1252###
+[UploadAppStep] Checking upload status of application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:15.270#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1252###
+[UploadAppStep] Getting package "69f1aea1-e64c-4dee-8dad-c49c6f7bce04"...#
+
+#2.0#2023 01 13 19:23:15.317#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1252###
+[UploadAppStep] Application "logali-approuter" uploaded#
+
+#2.0#2023 01 13 19:23:15.319#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1252###
+Step "Upload App" finished#
+
+#2.0#2023 01 13 19:23:15.363#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.scaleAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1253###
+[ScaleAppStep] Executing task "scaleAppTask" of process "b36dc4b1-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:23:15.364#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.scaleAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1253###
+[ScaleAppStep] Scaling application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:15.364#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.scaleAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1253###
+[ScaleAppStep] Application "logali-approuter" scaled#
+
+#2.0#2023 01 13 19:23:15.364#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.scaleAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1253###
+Step "Scale App" finished#
+
+#2.0#2023 01 13 19:23:15.402#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineDesiredStateAchievingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1254###
+[DetermineDesiredStateAchievingActionsStep] Executing task "determineDesiredStateAchievingActionsTask" of process "b36dc4b1-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:23:15.403#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineDesiredStateAchievingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1254###
+[DetermineDesiredStateAchievingActionsStep] Getting application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:15.468#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineDesiredStateAchievingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1254###
+[DetermineDesiredStateAchievingActionsStep] Getting instances for application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:15.468#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineDesiredStateAchievingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1254###
+[DetermineDesiredStateAchievingActionsStep] Getting environment of application "b62ce2db-cc09-496c-bede-550514836353"...#
+
+#2.0#2023 01 13 19:23:15.519#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineDesiredStateAchievingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1254###
+[DetermineDesiredStateAchievingActionsStep] Current state of application logali-approuter: STOPPED#
+
+#2.0#2023 01 13 19:23:15.520#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineDesiredStateAchievingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1254###
+[DetermineDesiredStateAchievingActionsStep] Desired state of application logali-approuter: STARTED#
+
+#2.0#2023 01 13 19:23:15.520#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineDesiredStateAchievingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1254###
+[DetermineDesiredStateAchievingActionsStep] Actions that should be executed on application logali-approuter: [STAGE, START]#
+
+#2.0#2023 01 13 19:23:15.520#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.determineDesiredStateAchievingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1254###
+Step "Determine Desired State Achieving Actions" finished#
+
+#2.0#2023 01 13 19:23:15.585#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1255###
+[StageAppStep] Executing task "stageAppTask" of process "b36dc4b1-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:23:15.587#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1255###
+[StageAppStep] Staging application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:15.593#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1255###
+[StageAppStep] Creating build for package "69f1aea1-e64c-4dee-8dad-c49c6f7bce04"...#
+
+#2.0#2023 01 13 19:23:16.694#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1255###
+Step "Stage App" finished#
+
+#2.0#2023 01 13 19:23:25.284#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2099###
+[StageAppStep] Executing task "stageAppTask" of process "b36dc4b1-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:23:25.285#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2099###
+[StageAppStep] Checking status of application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:25.285#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2099###
+[StageAppStep] Getting build "61b1efe9-41c6-414e-9a83-36b089f6472e"...#
+
+#2.0#2023 01 13 19:23:25.331#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2099###
+[StageAppStep] Staging status of application "logali-approuter": FAILED#
+
+#2.0#2023 01 13 19:23:25.331#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2099###
+[StageAppStep] Getting recent logs of application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:25.483#Z#ERROR#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2099###
+[StageAppStep] Error staging application "logali-approuter": BuildpackCompileFailed - App staging failed in the buildpack compile phase
+Download the application logs via the dmol command and check them for more information.#
+
+#2.0#2023 01 13 19:23:25.489#Z#ERROR#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2099###
+Exception caught#
+
+org.cloudfoundry.multiapps.common.SLException: A step of the process has failed. Retrying it may solve the issue.
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:77) ~[multiapps-controller-process-1.147.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:65) ~[multiapps-controller-process-1.147.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14) ~[multiapps-controller-core-1.147.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:65) ~[multiapps-controller-process-1.147.0.jar:?]
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:157) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:313) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:170) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:173) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:97) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:81) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:64) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:83) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57) ~[flowable-spring-common-6.6.0.jar:6.6.0]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) [spring-tx-5.3.23.jar:5.3.23]
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57) [flowable-spring-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:127) [flowable-job-service-6.6.0.jar:6.6.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:115) [flowable-job-service-6.6.0.jar:6.6.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+#2.0#2023 01 13 19:23:25.497#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2099###
+Step "Stage App" finished#
+
+#2.0#2023 01 13 19:23:26.159#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2100###
+[StageAppStep] Executing task "stageAppTask" of process "b36dc4b1-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:23:26.272#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2100###
+[StageAppStep] Staging application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:26.277#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2100###
+[StageAppStep] Creating build for package "69f1aea1-e64c-4dee-8dad-c49c6f7bce04"...#
+
+#2.0#2023 01 13 19:23:27.746#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2100###
+Step "Stage App" finished#
+
+#2.0#2023 01 13 19:23:35.296#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1265###
+[StageAppStep] Executing task "stageAppTask" of process "b36dc4b1-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:23:35.298#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1265###
+[StageAppStep] Checking status of application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:35.298#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1265###
+[StageAppStep] Getting build "41b3e524-3fbc-4c2b-a2cb-6b8adf5862c6"...#
+
+#2.0#2023 01 13 19:23:35.339#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1265###
+[StageAppStep] Staging status of application "logali-approuter": FAILED#
+
+#2.0#2023 01 13 19:23:35.339#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1265###
+[StageAppStep] Getting recent logs of application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:35.518#Z#ERROR#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1265###
+[StageAppStep] Error staging application "logali-approuter": BuildpackCompileFailed - App staging failed in the buildpack compile phase
+Download the application logs via the dmol command and check them for more information.#
+
+#2.0#2023 01 13 19:23:35.524#Z#ERROR#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1265###
+Exception caught#
+
+org.cloudfoundry.multiapps.common.SLException: A step of the process has failed. Retrying it may solve the issue.
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:77) ~[multiapps-controller-process-1.147.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:65) ~[multiapps-controller-process-1.147.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14) ~[multiapps-controller-core-1.147.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:65) ~[multiapps-controller-process-1.147.0.jar:?]
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:157) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:313) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:170) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:173) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:97) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:81) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:64) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:83) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57) ~[flowable-spring-common-6.6.0.jar:6.6.0]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) [spring-tx-5.3.23.jar:5.3.23]
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57) [flowable-spring-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:127) [flowable-job-service-6.6.0.jar:6.6.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:115) [flowable-job-service-6.6.0.jar:6.6.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+#2.0#2023 01 13 19:23:35.533#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1265###
+Step "Stage App" finished#
+
+#2.0#2023 01 13 19:23:38.385#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2106###
+[StageAppStep] Executing task "stageAppTask" of process "b36dc4b1-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:23:38.387#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2106###
+[StageAppStep] Staging application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:38.393#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2106###
+[StageAppStep] Creating build for package "69f1aea1-e64c-4dee-8dad-c49c6f7bce04"...#
+
+#2.0#2023 01 13 19:23:39.656#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2106###
+Step "Stage App" finished#
+
+#2.0#2023 01 13 19:23:45.374#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1268###
+[StageAppStep] Executing task "stageAppTask" of process "b36dc4b1-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:23:45.537#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1268###
+[StageAppStep] Checking status of application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:45.537#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1268###
+[StageAppStep] Getting build "c5630d8e-b3de-4f50-96db-c166eab028ba"...#
+
+#2.0#2023 01 13 19:23:45.599#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1268###
+[StageAppStep] Staging status of application "logali-approuter": FAILED#
+
+#2.0#2023 01 13 19:23:45.599#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1268###
+[StageAppStep] Getting recent logs of application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:45.792#Z#ERROR#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1268###
+[StageAppStep] Error staging application "logali-approuter": BuildpackCompileFailed - App staging failed in the buildpack compile phase
+Download the application logs via the dmol command and check them for more information.#
+
+#2.0#2023 01 13 19:23:45.799#Z#ERROR#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1268###
+Exception caught#
+
+org.cloudfoundry.multiapps.common.SLException: A step of the process has failed. Retrying it may solve the issue.
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:77) ~[multiapps-controller-process-1.147.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:65) ~[multiapps-controller-process-1.147.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14) ~[multiapps-controller-core-1.147.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:65) ~[multiapps-controller-process-1.147.0.jar:?]
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:157) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:313) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:170) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:173) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:97) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:81) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:64) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:83) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57) ~[flowable-spring-common-6.6.0.jar:6.6.0]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) [spring-tx-5.3.23.jar:5.3.23]
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57) [flowable-spring-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:127) [flowable-job-service-6.6.0.jar:6.6.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:115) [flowable-job-service-6.6.0.jar:6.6.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+#2.0#2023 01 13 19:23:45.807#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1268###
+Step "Stage App" finished#
+
+#2.0#2023 01 13 19:23:47.620#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2115###
+[StageAppStep] Executing task "stageAppTask" of process "b36dc4b1-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:23:47.622#Z#INFO#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2115###
+[StageAppStep] Staging application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:47.627#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2115###
+[StageAppStep] Creating build for package "69f1aea1-e64c-4dee-8dad-c49c6f7bce04"...#
+
+#2.0#2023 01 13 19:23:48.792#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2115###
+Step "Stage App" finished#
+
+#2.0#2023 01 13 19:23:55.325#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+[StageAppStep] Executing task "stageAppTask" of process "b36dc4b1-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:23:55.327#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+[StageAppStep] Checking status of application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:55.327#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+[StageAppStep] Getting build "cad3fea7-fd28-40f5-9532-97182c4aee36"...#
+
+#2.0#2023 01 13 19:23:55.384#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+[StageAppStep] Staging status of application "logali-approuter": PENDING#
+
+#2.0#2023 01 13 19:23:55.384#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+[StageAppStep] Getting recent logs of application "logali-approuter"...#
+
+#2.0#2023 01 13 19:23:55.557#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2087###
+Step "Stage App" finished#
+
+#2.0#2023 01 13 19:24:05.384#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2095###
+[StageAppStep] Executing task "stageAppTask" of process "b36dc4b1-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:24:05.385#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2095###
+[StageAppStep] Checking status of application "logali-approuter"...#
+
+#2.0#2023 01 13 19:24:05.385#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2095###
+[StageAppStep] Getting build "cad3fea7-fd28-40f5-9532-97182c4aee36"...#
+
+#2.0#2023 01 13 19:24:05.436#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2095###
+[StageAppStep] Staging status of application "logali-approuter": PENDING#
+
+#2.0#2023 01 13 19:24:05.437#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2095###
+[StageAppStep] Getting recent logs of application "logali-approuter"...#
+
+#2.0#2023 01 13 19:24:05.602#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2095###
+Step "Stage App" finished#
+
+#2.0#2023 01 13 19:24:15.434#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1276###
+[StageAppStep] Executing task "stageAppTask" of process "b36dc4b1-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:24:15.603#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1276###
+[StageAppStep] Checking status of application "logali-approuter"...#
+
+#2.0#2023 01 13 19:24:15.603#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1276###
+[StageAppStep] Getting build "cad3fea7-fd28-40f5-9532-97182c4aee36"...#
+
+#2.0#2023 01 13 19:24:15.674#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1276###
+[StageAppStep] Staging status of application "logali-approuter": PENDING#
+
+#2.0#2023 01 13 19:24:15.676#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1276###
+[StageAppStep] Getting recent logs of application "logali-approuter"...#
+
+#2.0#2023 01 13 19:24:15.851#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1276###
+Step "Stage App" finished#
+
+#2.0#2023 01 13 19:24:25.447#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2103###
+[StageAppStep] Executing task "stageAppTask" of process "b36dc4b1-9377-11ed-a509-eeee0a9d9113"...#
+
+#2.0#2023 01 13 19:24:25.448#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2103###
+[StageAppStep] Checking status of application "logali-approuter"...#
+
+#2.0#2023 01 13 19:24:25.448#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2103###
+[StageAppStep] Getting build "cad3fea7-fd28-40f5-9532-97182c4aee36"...#
+
+#2.0#2023 01 13 19:24:25.514#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2103###
+[StageAppStep] Staging status of application "logali-approuter": FAILED#
+
+#2.0#2023 01 13 19:24:25.515#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2103###
+[StageAppStep] Getting recent logs of application "logali-approuter"...#
+
+#2.0#2023 01 13 19:24:25.690#Z#ERROR#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2103###
+[StageAppStep] Error staging application "logali-approuter": BuildpackCompileFailed - App staging failed in the buildpack compile phase
+Download the application logs via the dmol command and check them for more information.#
+
+#2.0#2023 01 13 19:24:25.696#Z#ERROR#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2103###
+Exception caught#
+
+org.cloudfoundry.multiapps.common.SLException: A step of the process has failed. Retrying it may solve the issue.
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:77) ~[multiapps-controller-process-1.147.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:65) ~[multiapps-controller-process-1.147.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14) ~[multiapps-controller-core-1.147.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:65) ~[multiapps-controller-process-1.147.0.jar:?]
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:157) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:313) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:170) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:173) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:97) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:81) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:64) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:83) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57) ~[flowable-spring-common-6.6.0.jar:6.6.0]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) [spring-tx-5.3.23.jar:5.3.23]
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57) [flowable-spring-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:127) [flowable-job-service-6.6.0.jar:6.6.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:115) [flowable-job-service-6.6.0.jar:6.6.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+#2.0#2023 01 13 19:24:25.704#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a7580bfb-9377-11ed-b4eb-eeee0a868da1.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2103###
+Step "Stage App" finished#
+
